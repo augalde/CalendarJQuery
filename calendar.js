@@ -1,7 +1,9 @@
 $(document).ready(function(){	
 
-    $("#timeSelect").keyup(function () {
-            $("#datepicker").val($("#timeSelect").val());
+    $("#timeSelect").change(function () {
+        var dateSelected = new Date($("#timeSelect").val());
+        var fullDate = (dateSelected.getMonth()+1)+"/"+(dateSelected.getDate()+1)+"/" + dateSelected.getFullYear();
+            $("#datepicker").val(fullDate);
         });
 
         $("#datepicker").datepicker({
