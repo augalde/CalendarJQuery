@@ -8,3 +8,13 @@
     text-decoration: none;
     margin-left: 10px;
   }
+
+  .selectedDays a {
+    background-color: #5FBA7D !important;
+    color: #ffffff !important;
+}
+
+.nonValidDays a {
+    background-color: grey !important;
+    color: grey !important;
+}
