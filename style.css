@@ -9,12 +9,20 @@
     margin-left: 10px;
   }
 
-  .selectedDays a {
+  .selectedDays, .selectedDays a{
     background-color: #5FBA7D !important;
-    color: #ffffff !important;
+    color: black !important;
 }
 
-.nonValidDays a {
-    background-color: grey !important;
-    color: grey !important;
+.nonValidDays, .nonValidDays a{
+    background-color: gray !important;
+    color: gray !important;
+}
+
+.weekend, .weekend a{
+    background-color: rgb(243, 230, 53) !important;
+    color: black !important;
+}
+td{
+    background-color: gray;
 }
