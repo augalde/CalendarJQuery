@@ -1,13 +1,26 @@
-.ui-datepicker { 
-    margin-left: 30px;
+.ui-datepicker{ 
+    margin-left: 30px;  
   }
-
+  .ui-datepicker .ui-icon{ 
+    border-radius: 12px;
+    border: 1px solid green;
+    background-color: #4CAF50;
+    
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 4px 2px;
+  }
   a
   {
     color: #337ab7;
     text-decoration: none;
     margin-left: 10px;
   }
+
 
   .selectedDays, .selectedDays a{
     background-color: #5FBA7D !important;
@@ -23,6 +36,15 @@
     background-color: rgb(243, 230, 53) !important;
     color: black !important;
 }
+
+table, th, td {
+    border: 1px solid black;
+}
+th{
+    background-color: blue;
+    color: white
+}
+
 td{
-    background-color: gray;
+    background-color: gray;    
 }
